@@ -33,5 +33,7 @@ Run script "model/ Main_GAN_RNN_pheme.py" for GAN-RNN model on PHEME dataset or 
 
 Alternatively, you can change the "fold" parameter to set each fold.
 
+We also save our trained model at "param/param-GAN-RNN-*.npz"
+
 #If you find this code useful, please let us know and cite our paper.
 

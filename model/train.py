@@ -220,6 +220,7 @@ def train_Gen_Dis(model, x_word, Len, y, yg, index_t, index_f, x_word_test, y_te
         if res[1] > acc_o:
            save_model(modelPath, model)
            acc_o = res[1]
+           print "new RES:", res
         print "epoch=%d: acc=%f lg=%f lc=%f ld=%f" % (epoch, acc, loss_g, loss_c, loss_d)
         #print "epoch=%d: acc=%f" % (epoch, acc)        
         num_examples_seen += n1 + n2   
